@@ -16,10 +16,10 @@ KXAccountRecord-账号记录管理
 #define KXAccountRecordMaxShowCount  4
 ````
       
-* 截图
+## 截图
 ![(账号列表)](https://github.com/KongXiangX/KXAccountRecord/blob/master/KXAccountRecord/账号列表.png)
 
-*注意 
+## 注意 
 ````objc
 #pragma mark -- 2.1 KXaccountRecordViewDelegate
 //(以下2个方法最好 只是用一个)
