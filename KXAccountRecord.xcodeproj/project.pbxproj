@@ -15,6 +15,12 @@
 		187D9B80200339E600E80C13 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 187D9B7F200339E600E80C13 /* main.m */; };
 		187D9B8A200339E600E80C13 /* KXAccountRecordTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 187D9B89200339E600E80C13 /* KXAccountRecordTests.m */; };
 		187D9B95200339E600E80C13 /* KXAccountRecordUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 187D9B94200339E600E80C13 /* KXAccountRecordUITests.m */; };
+		187D9BA520033A4900E80C13 /* KXAccountRecordCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 187D9BA420033A4900E80C13 /* KXAccountRecordCell.m */; };
+		187D9BA820033A8A00E80C13 /* KXAcountRecordManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 187D9BA720033A8A00E80C13 /* KXAcountRecordManager.m */; };
+		187D9BB320033B3E00E80C13 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 187D9BB220033B3E00E80C13 /* UIView+Extension.m */; };
+		187D9BB620033F2A00E80C13 /* KXAccountRecordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 187D9BB520033F2A00E80C13 /* KXAccountRecordView.m */; };
+		187D9BBB200346E200E80C13 /* LoginVC_listBtn_del@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 187D9BB8200346E200E80C13 /* LoginVC_listBtn_del@2x.png */; };
+		187D9BBD200346E200E80C13 /* LoginVC_listBtn_up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 187D9BBA200346E200E80C13 /* LoginVC_listBtn_up@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,17 @@
 		187D9B90200339E600E80C13 /* KXAccountRecordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KXAccountRecordUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		187D9B94200339E600E80C13 /* KXAccountRecordUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KXAccountRecordUITests.m; sourceTree = "<group>"; };
 		187D9B96200339E600E80C13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187D9BA320033A4900E80C13 /* KXAccountRecordCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KXAccountRecordCell.h; sourceTree = "<group>"; };
+		187D9BA420033A4900E80C13 /* KXAccountRecordCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KXAccountRecordCell.m; sourceTree = "<group>"; };
+		187D9BA620033A8A00E80C13 /* KXAcountRecordManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KXAcountRecordManager.h; sourceTree = "<group>"; };
+		187D9BA720033A8A00E80C13 /* KXAcountRecordManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KXAcountRecordManager.m; sourceTree = "<group>"; };
+		187D9BAC20033AD900E80C13 /* KXAccountRecordConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KXAccountRecordConst.h; sourceTree = "<group>"; };
+		187D9BB120033B3E00E80C13 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		187D9BB220033B3E00E80C13 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		187D9BB420033F2A00E80C13 /* KXAccountRecordView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KXAccountRecordView.h; sourceTree = "<group>"; };
+		187D9BB520033F2A00E80C13 /* KXAccountRecordView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KXAccountRecordView.m; sourceTree = "<group>"; };
+		187D9BB8200346E200E80C13 /* LoginVC_listBtn_del@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LoginVC_listBtn_del@2x.png"; sourceTree = "<group>"; };
+		187D9BBA200346E200E80C13 /* LoginVC_listBtn_up@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LoginVC_listBtn_up@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +122,8 @@
 				187D9B71200339E500E80C13 /* AppDelegate.m */,
 				187D9B73200339E600E80C13 /* ViewController.h */,
 				187D9B74200339E600E80C13 /* ViewController.m */,
+				187D9BAF20033B3E00E80C13 /* Category */,
+				187D9BA220033A1500E80C13 /* AccountRecord */,
 				187D9B76200339E600E80C13 /* Main.storyboard */,
 				187D9B79200339E600E80C13 /* Assets.xcassets */,
 				187D9B7B200339E600E80C13 /* LaunchScreen.storyboard */,
@@ -131,6 +150,48 @@
 			);
 			path = KXAccountRecordUITests;
 			sourceTree = "<group>";
+		};
+		187D9BA220033A1500E80C13 /* AccountRecord */ = {
+			isa = PBXGroup;
+			children = (
+				187D9BB7200346E200E80C13 /* Img */,
+				187D9BA320033A4900E80C13 /* KXAccountRecordCell.h */,
+				187D9BA420033A4900E80C13 /* KXAccountRecordCell.m */,
+				187D9BB420033F2A00E80C13 /* KXAccountRecordView.h */,
+				187D9BB520033F2A00E80C13 /* KXAccountRecordView.m */,
+				187D9BA620033A8A00E80C13 /* KXAcountRecordManager.h */,
+				187D9BA720033A8A00E80C13 /* KXAcountRecordManager.m */,
+				187D9BAC20033AD900E80C13 /* KXAccountRecordConst.h */,
+			);
+			path = AccountRecord;
+			sourceTree = "<group>";
+		};
+		187D9BAF20033B3E00E80C13 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				187D9BB020033B3E00E80C13 /* UIView */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		187D9BB020033B3E00E80C13 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				187D9BB120033B3E00E80C13 /* UIView+Extension.h */,
+				187D9BB220033B3E00E80C13 /* UIView+Extension.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		187D9BB7200346E200E80C13 /* Img */ = {
+			isa = PBXGroup;
+			children = (
+				187D9BB8200346E200E80C13 /* LoginVC_listBtn_del@2x.png */,
+				187D9BBA200346E200E80C13 /* LoginVC_listBtn_up@2x.png */,
+			);
+			name = Img;
+			path = KXAccountRecord/Img;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -238,6 +299,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				187D9BBB200346E200E80C13 /* LoginVC_listBtn_del@2x.png in Resources */,
+				187D9BBD200346E200E80C13 /* LoginVC_listBtn_up@2x.png in Resources */,
 				187D9B7D200339E600E80C13 /* LaunchScreen.storyboard in Resources */,
 				187D9B7A200339E600E80C13 /* Assets.xcassets in Resources */,
 				187D9B78200339E600E80C13 /* Main.storyboard in Resources */,
@@ -265,9 +328,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				187D9BA820033A8A00E80C13 /* KXAcountRecordManager.m in Sources */,
+				187D9BB620033F2A00E80C13 /* KXAccountRecordView.m in Sources */,
 				187D9B75200339E600E80C13 /* ViewController.m in Sources */,
 				187D9B80200339E600E80C13 /* main.m in Sources */,
+				187D9BB320033B3E00E80C13 /* UIView+Extension.m in Sources */,
 				187D9B72200339E500E80C13 /* AppDelegate.m in Sources */,
+				187D9BA520033A4900E80C13 /* KXAccountRecordCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
